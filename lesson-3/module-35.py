@@ -24,6 +24,6 @@ while i:
 
     my_str = input("введите числа разделенные пробелом. '*' - завершение: ")
 
-    i = my_func(list(my_str.split()))
+    i = my_func(my_str.split())
 
 

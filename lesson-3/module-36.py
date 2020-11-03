@@ -9,5 +9,5 @@ def my_func(arg_1):
 my_str = input('введите слово или несколько слов маленькими английскими буквами: ')
 
 
-for i,j in enumerate(list(my_str.split())):
+for i,j in enumerate(my_str.split()):
     print(my_func(j), end=' ')
